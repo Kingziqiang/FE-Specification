@@ -13,7 +13,7 @@
   margin-left: 10px
 }
 ```
-> 没有孰好孰坏之分，结合业务
+> 没有孰好孰坏之分，结合业务，统一即可
 
 样式过长如何命名？
 
@@ -28,7 +28,7 @@
 #### 2、样式编写顺序
 - 位置
 - 盒模型
-- 排版
+- 样式排版
 - 外观
 ```css
 .declaration-order {
@@ -46,7 +46,7 @@
     width: 100px;
     height: 100px;
 
-    /* 排版 */
+    /* 样式排版 */
     font: normal 13px "Helvetica Neue", sans-serif;
     line-height: 1.5;
     color: #333;
@@ -79,10 +79,28 @@
 }
 ```
 
-#### 4、数值省略
+#### 4、单位数值省略
+```css
+<!--不推荐写法-->
+.title {
+  height: 0.5rem
+}
 
+<!--推荐写法-->
+.title {
+  height: .5rem
+}
+```
 
+#### 5、色值缩写
+```css
+<!--不推荐写法-->
+.title {
+  color: #cccccc;
+}
 
-
-
-
+<!--推荐写法-->
+.title {
+  color: #ccc;
+}
+```
