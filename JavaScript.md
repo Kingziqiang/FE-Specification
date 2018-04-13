@@ -27,9 +27,17 @@ function foo(p1, p2, p3) {
 ```
 
 **文件注释**
+```js
+/**
+ * @file
+ * - 用途说明
+ * - 备注
+ * - 创建时间与作者
+ */
+```
 
 
-#### 2、变量命名
+#### 2、命名
 **变量名称用驼峰**
 ```js
 // 推荐
@@ -54,6 +62,16 @@ function StudentGrade () {
 function studentNrade () {
   
 }
+```
+
+**文件**
+- 采用`-`分割
+```
+// 不推荐
+tipCool.js
+
+// 推荐
+tip-cool.js
 ```
 
 #### 3、总是使用 [===](https://www.zhihu.com/question/20348948/answer/14867031)
