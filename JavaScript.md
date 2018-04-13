@@ -29,7 +29,7 @@ function foo(p1, p2, p3) {
 **文件注释**
 
 
-#### 2、命名
+#### 2、变量命名
 **变量名称用驼峰**
 ```js
 // 推荐
@@ -37,16 +37,6 @@ let firstName = 'Peter';
 
 // 不推荐
 let firstName = 'peter';
-```
-
-**常量**
-常量建议用大写
-```js
-// 推荐
-const P_NAME = 'Peter';
-
-// 不推荐
-const p_name = 'peter';
 ```
 
 **函数**
@@ -90,29 +80,81 @@ let foo = 1;
 ```
 
 #### 5、尽量不再使用 var
-- 常量或不变的变量使用 `const`
-- 变量使用 `let`
+- 使用`const` 和 `let`
 ```js
 // 不推荐
-var foo = 1;
+var foo = 'peter';
 
 // 推荐
-let foo = 1;
+const foo = 'peter';
 ```
 
 #### 6、使用字面量创建对象
 ```js
 // 不推荐
-let a = new Object();
+let foo = new Object();
 
 // 推荐
-let a = {};
+let foo = {};
 ```
 
+#### 7、属性和方法用简写的形式
+ES6 允许直接写入变量和函数，作为对象的**属性**和**方法**
+```js
+const foo = 'job';
 
+// 不推荐
+const baz = {
+   job: foo
+}
 
+// 推荐
+const baz = {
+   foo
+}
 
+// 不推荐
+const foo = {
+  say: function() {
+    return "Hello!";
+  }
+};
 
+// 推荐
+const foo = {
+  say () {
+    return "Hello!";
+  }
+};
+```
 
+#### 8、总是在JavaScript中使用`'`(单引号)
+```js
+// 不推荐
+const foo = "job";
 
+// 推荐
+const foo = 'job';
+```
 
+#### 9、使用模板字符串拼接字符串
+```js
+// 不推荐
+const foo = 'job' + dream;
+
+// 推荐
+const foo = `job${dream}`;
+```
+
+#### 10、模块不要混写
+- export(default),import
+- (module)exports,require
+```js
+// 不推荐
+var helper = require('./helpers');
+module.exports = helper;
+
+// 推荐
+import helper from './helpers';
+export default helper;
+```
