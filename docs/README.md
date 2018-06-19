@@ -1,7 +1,7 @@
 ## 前端开发规范
-- [前端总纲](//zhaoqize.github.io/FE-Specification/#/Necessary)
-- [HTML规范](//zhaoqize.github.io/FE-Specification/#/HTML)
-- [CSS规范](//zhaoqize.github.io/FE-Specification/#/CSS)
-- [JavaScript规范](//zhaoqize.github.io/FE-Specification/#/JavaScript)
-- [代码解耦](//zhaoqize.github.io/FE-Specification/#/Decouple)
-- [重构指导](//zhaoqize.github.io/FE-Specification/#/Refactor)
+* [总览](Necessary.md)
+* [HTML规范](HTML.md)
+* [JS规范](JavaScript.md)
+* [CSS规范](CSS.md)
+* [代码解耦](Decouple.md)
+* [代码重构](Refactor.md)
