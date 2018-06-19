@@ -168,6 +168,7 @@ const foo = `job${dream}`;
 #### 10、模块不要混写
 - export(default),import
 - (module)exports,require
+
 ```js
 // 不推荐
 var helper = require('./helpers');
