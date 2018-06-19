@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-* [Home](/)
+* [目录](/)
 * [总览](Necessary.md)
 * [HTML规范](HTML.md)
 * [JS规范](JavaScript.md)
