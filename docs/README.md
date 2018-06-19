@@ -1,9 +1,7 @@
-<!-- <img src="./img/web.jpg"/> -->
-
 ## 前端开发规范
-- [前端总纲](//github.com/zhaoqize/FE-Specification/blob/master/Necessary.md)
-- [HTML规范](//github.com/zhaoqize/FE-Specification/blob/master/HTML.md)
-- [CSS规范](//github.com/zhaoqize/FE-Specification/blob/master/CSS.md)
-- [JavaScript规范](//github.com/zhaoqize/FE-Specification/blob/master/JavaScript.md)
-- [代码解耦](//github.com/zhaoqize/FE-Specification/blob/master/Decouple.md)
-- [重构指导](//github.com/zhaoqize/FE-Specification/blob/master/Refactor.md)
+- [前端总纲](//zhaoqize.github.io/FE-Specification/#/Necessary)
+- [HTML规范](//zhaoqize.github.io/FE-Specification/#/HTML)
+- [CSS规范](//zhaoqize.github.io/FE-Specification/#/CSS)
+- [JavaScript规范](//zhaoqize.github.io/FE-Specification/#/JavaScript)
+- [代码解耦](//zhaoqize.github.io/FE-Specification/#/Decouple)
+- [重构指导](//zhaoqize.github.io/FE-Specification/#/Refactor)
