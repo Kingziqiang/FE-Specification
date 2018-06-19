@@ -1,5 +1,5 @@
 ## 前端开发规范
-* [总览](Necessary.md)
+* [前端总览](Necessary.md)
 * [HTML规范](HTML.md)
 * [JS规范](JavaScript.md)
 * [CSS规范](CSS.md)
