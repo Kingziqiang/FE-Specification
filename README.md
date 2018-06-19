@@ -1,5 +1,3 @@
-<img src="./img/web.jpg"/>
-
 ## 前端开发规范
 - [前端总纲](//github.com/zhaoqize/FE-Specification/blob/master/Necessary.md)
 - [HTML规范](//github.com/zhaoqize/FE-Specification/blob/master/HTML.md)
